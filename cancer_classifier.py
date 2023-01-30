@@ -27,7 +27,9 @@ from sklearn.utils import shuffle
 df=pd.read_csv(r'E-MTAB-2770-query-results.tpms.tsv',
              sep="\t", comment='#')
 
-df
+#Remove normal cell lines
+df=df.loc[:,~df.columns.str.contains('normal', case=False)]
+df 
 
 #Define the targets for prediction (cancer samples)
 target=list(df.columns[2:])
