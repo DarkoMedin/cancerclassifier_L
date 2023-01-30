@@ -1,0 +1,3 @@
+Barretina J, Caponigro G, Stransky N, Venkatesan K, Margolin AA et al. (2012) The Cancer Cell Line Encyclopedia enables predictive modelling of anticancer drug sensitivity.
+
+https://www.ebi.ac.uk/gxa/experiments/E-MTAB-2770/Downloads
